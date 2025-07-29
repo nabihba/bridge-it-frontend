@@ -31,7 +31,7 @@ export default function Welcome() {
         {/* Logo and Title */}
         <div className="text-center mb-12">
           <div className="w-24 h-24 mx-auto mb-6 rounded-full flex items-center justify-center bg-white/20 backdrop-blur-sm border-2 border-white/30 overflow-hidden">
-           <img src="/path/to/your/logo.jpg" 
+           <img src="src/components/ui/BridgeIt-Logo.jpg" 
               alt="BridgeIT Logo"
               className="w-20 h-20 object-cover rounded-full"
             />
