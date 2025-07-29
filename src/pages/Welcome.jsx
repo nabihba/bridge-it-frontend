@@ -30,9 +30,12 @@ export default function Welcome() {
       <div className="max-w-md w-full mx-4">
         {/* Logo and Title */}
         <div className="text-center mb-12">
-          <div className="w-24 h-24 mx-auto mb-6 rounded-full flex items-center justify-center bg-white/20 backdrop-blur-sm border-2 border-white/30">
-            <span className="text-white font-bold text-4xl">B</span>
-          </div>
+          <div className="w-24 h-24 mx-auto mb-6 rounded-full flex items-center justify-center bg-white/20 backdrop-blur-sm border-2 border-white/30 overflow-hidden">
+           <img src="/path/to/your/logo.jpg" 
+              alt="BridgeIT Logo"
+              className="w-20 h-20 object-cover rounded-full"
+            />
+            </div>
           <h1 className="text-5xl font-bold mb-3 text-white drop-shadow-lg">BridgeIT</h1>
           <div className="mb-4">
             <p className="text-xl text-white/90 font-medium italic">"A bridge to your life"</p>
